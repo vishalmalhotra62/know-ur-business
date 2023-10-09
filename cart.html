@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css'
+        integrity='sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=='
+        crossorigin='anonymous' />
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <div class="navv position-sticky" style="top:0px; z-index: 999;">
+        <div class="container ">
+            <div class="row pb-lg-5 pb-4 pt-2 pt-lg-4 align-items-center">
+                <div class="col-lg-4  col-4 ">
+                    <nav class="navbar navbar-expand-sm">
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="myNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="product_list.html" class="nav-link fs-16">Store</a></li>
+                                <li class="nav-item"><a href="about us.html" class="nav-link fs-16">About Us</a></li>
+                                <li class="nav-item"><a href="FAQ.html" class="nav-link fs-16">FAQs</a></li>
+                                <li class="nav-item"><a href="contact us.html" class="nav-link fs-16 d-block d-lg-none">Contact us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-lg-4 col-4">
+                    <img src="media/Logo.png" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="col-lg-2 pt-lg-3 col-4">
+                    <div class="col justify-content-around d-flex align-items-center position-relative">
+                        <a href="#"><img src="media/person.png"></a>
+                        <a href="#" style="color: inherit;" class="cartOpen"><img src="media/shopping.png">
+                        </a>
+                        <div class="account1B position-absolute py-4 cart_b px-4">
+                            <div class="fs-20 fw-bold d-flex justify-content-between align-items-center">Cart
+
+
+                                <div class="cartclose">
+                                    <img src="media/x.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="w-100  mt-4" style="border-bottom:1px solid #C6C0FC ;">
+                            </div>
+                            <div class="row bg-white py-2 my-3 px-3">
+                                <div class="col-3 p-0 mt-4">
+                                    <img src="media/Frame 61.png" class="img-fluid h90">
+                                </div>
+                                <div class="col-8 lh-sm pt-1 p-0 offset-1 eBook">
+                                    <div class="pb-2 fsb-14" style="color: #656565">E-BOOK</div>
+                                    <div class="pb-2 fsb-16">Product Title: ornare viverra lectus vestibulum</div>
+                                    <div class="row">
+                                        <div class="col-6 fsb-16">£48.99</div>
+                                    </div>
+                                    <div class="row pt-2">
+                                        <div class="col-7 d-flex gap-2 align-items-center">
+                                            <button type="button" style="background-color: #C6C0FC"
+                                                class="px-2 btn1 btn11">-</button>
+                                            <input type="text" class="qyt" value="0">
+                                            <button type="button" style="background-color: #C6C0FC"
+                                                class="px-2 btn1 btn11">+</button>
+                                        </div>
+                                        <div class="col-5 px-0 text-lg-start text-end">
+                                            <img src="media/trash.png" class="text-end"> <a href="#"
+                                                style="color: #656565;font-size: 12px;" class="desktop">remove item</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row bg-white py-2 my-3 px-3">
+                                <div class="col-3 p-0 mt-4">
+                                    <img src="media/Frame 61.png" class="img-fluid h90">
+                                </div>
+                                <div class="col-8 lh-sm pt-1 p-0 offset-1 eBook">
+                                    <div class="pb-2 fsb-14" style="color: #656565">E-BOOK</div>
+                                    <div class="pb-2 fsb-16">Product Title: ornare viverra lectus vestibulum</div>
+                                    <div class="row">
+                                        <div class="col-6 fsb-16">£48.99</div>
+                                    </div>
+                                    <div class="row pt-2">
+                                        <div class="col-7 d-flex gap-2 align-items-center">
+                                            <button type="button" style="background-color: #C6C0FC"
+                                                class="px-2 btn1 btn11">-</button>
+                                            <input type="text" class="qyt" value="0">
+                                            <button type="button" style="background-color: #C6C0FC"
+                                                class="px-2 btn1 btn11">+</button>
+                                        </div>
+                                        <div class="col-5 px-0 text-lg-start text-end">
+                                            <img src="media/trash.png" class="text-end"> <a href="#"
+                                                style="color: #656565;font-size: 12px;" class="desktop">remove item</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row bg-white py-2 my-3 px-3 border-1 border-bottom">
+                                <div class="col-3 p-0 mt-4">
+                                    <img src="media/Frame 61.png" class="img-fluid h90">
+                                </div>
+                                <div class="col-8 lh-sm pt-1 p-0 offset-1 eBook">
+                                    <div class="pb-2 fsb-14" style="color: #656565">E-BOOK</div>
+                                    <div class="pb-2 fsb-16">Product Title: ornare viverra lectus vestibulum</div>
+                                    <div class="row">
+                                        <div class="col-6 fsb-16">£48.99</div>
+                                    </div>
+                                    <div class="row pt-2">
+                                        <div class="col-7 d-flex gap-2 align-items-center">
+                                            <button type="button" style="background-color: #C6C0FC"
+                                                class="px-2 btn1 btn11">-</button>
+                                            <input type="text" class="qyt" value="0">
+                                            <button type="button" style="background-color: #C6C0FC"
+                                                class="px-2 btn1 btn11">+</button>
+                                        </div>
+                                        <div class="col-5 px-0 text-lg-start text-end">
+                                            <img src="media/trash.png" class="text-end"> <a href="#"
+                                                style="color: #656565;font-size: 12px;" class="desktop">remove item</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row py-2">
+                                <div class="col-6 fs-14">Subtotal</div>
+                                <div class="col-6 text-end fsb-14">£146.97</div>
+                            </div>
+                            <div class="row py-2">
+                                <div class="col-6 fs-14">VAT 20%</div>
+                                <div class="col-6 text-end fsb-14">£22.19</div>
+                            </div>
+                            <div class="row py-2">
+                                <div class="col-6 fs-14">Discount</div>
+                                <div class="col-6 text-end fsb-14">-£8.00</div>
+                            </div>
+                            <div class="row py-2">
+                                <div class="col-6 fsb-14">Order Total</div>
+                                <div class="col-6 text-end fsb-14">£138.74</div>
+                            </div>
+
+                            <div class="row py-3 px-0">
+                                <div class="col-lg-7 col-6">
+                                    <input type="text" name="" placeholder="Enter Promo Code"
+                                        class="px-2 py-2 w-100 rounded-3">
+                                </div>
+                                <div class="col-lg-5 col-6 px-0">
+                                    <button type="button" class="btn1 w-100 fw-bold"
+                                        style="background-color: #F2F0FE;border: 1px solid #C6C0FC;">Apply
+                                        Now</button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-12 px-0">
+                                <button type="button" class="btn1 w-100 fw-bold text-white"
+                                    style="background-color: #0e0e0e">Checkout Securely
+                                    <img src="media/arrowW.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="w-100 " style="border-bottom:1px solid #C6C0FC ;">
+                            </div>
+
+                        </div>
+                        <div class="navbar-nav mt-0 pt-0 d-none d-lg-block">
+                            <li class="nav-item dropdown mt-lg-0 mt-3 pt-0">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    £
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-light"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">GBP £</a></li>
+                                    <li><a class="dropdown-item" href="#">GBP £</a></li>
+                                    <li><a class="dropdown-item" href="#">GBP £</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 contact">
+                    <button type="button" class="btn fw-bold ms-auto d-block">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overflow-hidden marnn50">
+        <div class="grad_main elis marn50">
+            <section>
+                <div class="container pt-lg-4">
+                    <div class="row pt-5">
+                        <div
+                            class="col-lg-6 d-flex align-items-center text-center text-lg-start justify-content-center flex-column order-md-1 order-2">
+                            <h1 class="fs-80 ps-1">
+                                Your Business. <br class="d-block d-lg-none"><b> Your Rule.</b>
+                            </h1>
+                            <p class="fs-16">
+                                Lorem ipsum dolor sit amet consectetur. Eros quis vulputate leo sed elit libero metus.
+                                Lectus tempus at aliquam urna risus donec risus. Erat ornare ultrices non et donec vitae
+                                id. Consectetur suscipit posuere feugiat fermentum faucibus vitae morbi quam.
+                                Faucibus consectetur nulla nunc.
+                            </p>
+                            <button class="btn1 align-self-lg-start">
+                                Find Out More
+                            </button>
+                        </div>
+                        <div class="col-lg-6 order-md-2 order-1 pt-5">
+                            <img src="media/home1.png" class="w-100">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row pb-5 mt-4" style="margin-top: -20px;">
+                    <svg width="1447" class="d-none d-lg-block" height="42" viewBox="0 0 1447 42" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M723 22.3335L727 26.3335M727 26.3335L731 22.3335M727 26.3335V14.3335" stroke="#9A8FFA"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M0.5 0.5C168 14.7375 465.794 14.7376 675.358 14.7375C717.645 14.7375 714.651 36.7075 728.123 36.3287C741.595 35.9499 735.981 14.7375 778.642 14.7375C789.121 14.7375 1193.5 14.7375 1440.5 0.5"
+                            stroke="#9A8FFA" />
+                    </svg>
+
+                    <img src="media/ArrowM.png" class="d-block d-lg-none" alt="">
+                </div>
+            </section>
+        </div>
+        <section>
+            <div class="container">
+                <div class="row mt-lg-5 mt-4 mb-lg-5 mb-4">
+                    <div class="col-lg-7">
+                        <h3 class="fs-48 fw-bold">
+                            Kickstart your <br class="d-block d-lg-none">
+                            <br class="d-block d-lg-none">Dream with Us
+                        </h3>
+                    </div>
+                    <div class="col-lg-5 d-flex align-items-end justify-content-end d-none d-lg-flex">
+                        <button class="btn1 align-self-end">
+                            Find Out More
+                            <svg width="14" height="10" viewBox="0 0 14 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.5303 4.46967C13.8232 4.76256 13.8232 5.23744 13.5303 5.53033L9.53033 9.53033C9.23744 9.82322 8.76256 9.82322 8.46967 9.53033C8.17678 9.23744 8.17678 8.76256 8.46967 8.46967L11.1893 5.75L1 5.75C0.585787 5.75 0.25 5.41421 0.25 5C0.25 4.58579 0.585787 4.25 1 4.25L11.1893 4.25L8.46967 1.53033C8.17678 1.23744 8.17678 0.762563 8.46967 0.46967C8.76256 0.176776 9.23744 0.176776 9.53033 0.46967L13.5303 4.46967Z"
+                                    fill="#0E0E0E" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row gap-lg-0 gap-4">
+                    <div class="col-md-4">
+                        <div class="card p-4 bg-white  d-flex gap-2 flex-row-reverse justify-content-center" style="border: 1px solid #C6C0FC;
+						  border-radius: 20px;">
+                            <div class="flex-grow-1">
+                                <h5 class="mt-3 mb-2 fs-24 fw-bold">Skilled Advice</h5>
+                                <p class="fs-16">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis sed
+                                    volutpat.
+                                </p>
+                            </div>
+                            <img src="media/ic1.png" class="img-fluid align-self-center im2" alt="Image 1"
+                                style="width: 100px;">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-4 bg-white  d-flex gap-2 flex-row-reverse justify-content-center" style="border: 1px solid #FFC0CB;
+						  border-radius: 20px;">
+                            <div class="flex-grow-1">
+                                <h5 class="mt-3 mb-2 fs-24 fw-bold">Affordable</h5>
+                                <p class="fs-16">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis sed
+                                    volutpat.
+                                </p>
+                            </div>
+                            <img src="media/ic2.png" class="img-fluid align-self-center im2" alt="Image 2"
+                                style="width: 100px;">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-4 bg-white border-1  rounded-3 d-flex gap-2 flex-row-reverse justify-content-center"
+                            style="border: 1px solid #D7D2FD;
+						  border-radius: 20px;">
+                            <div class="flex-grow-1">
+                                <h5 class="mt-3 mb-2 fs-24 fw-bold">Flexibility</h5>
+                                <p class="fs-16">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis sed
+                                    volutpat.
+                                </p>
+                            </div>
+                            <img src="media/ic3.png" class="img-fluid align-self-center im2" alt="Image 3"
+                                style="width: 100px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 mb-lg-5 mb-4 gap-lg-0 gap-4">
+                    <div class="col-md-4">
+                        <div class="card p-4 bg-white  d-flex gap-2 flex-row-reverse justify-content-center" style="border: 1px solid #FFF1C0;
+						border-radius: 20px;">
+                            <div class="flex-grow-1">
+                                <h5 class="mt-3 mb-2 fs-24 fw-bold">Great Reviews</h5>
+                                <p class="fs-16">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis sed
+                                    volutpat.
+                                </p>
+                            </div>
+                            <img src="media/ic4.png" class="img-fluid align-self-center im2" alt="Image 1"
+                                style="width: 100px;">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-4 bg-white border-1  rounded-3 d-flex gap-2 flex-row-reverse justify-content-center"
+                            style="border: 1px solid #D0E9A8;
+						border-radius: 20px;">
+                            <div class="flex-grow-1">
+                                <h5 class="mt-3 mb-2 fs-24 fw-bold">Secure Payment</h5>
+                                <p class="fs-16">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis sed
+                                    volutpat.
+                                </p>
+                            </div>
+                            <img src="media/ic5.png" class="img-fluid align-self-center im2" alt="Image 2"
+                                style="width: 100px;">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-4 bg-white border-1  rounded-3 d-flex gap-2 flex-row-reverse justify-content-center"
+                            style="border: 1px solid #D2E8FE;
+						border-radius: 20px;">
+                            <div class="flex-grow-1">
+                                <h5 class="mt-3 mb-2 fs-24 fw-bold">Wide Variety</h5>
+                                <p class="fs-16">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis sed
+                                    volutpat.
+                                </p>
+                            </div>
+                            <img src="media/ic6.png" class="img-fluid align-self-center im2" alt="Image 3"
+                                style="width: 100px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 d-flex align-items-end justify-content-center d-block d-lg-none">
+                    <button class="btn1 align-self-center ">
+                        Find Out More
+                        <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.5303 4.46967C13.8232 4.76256 13.8232 5.23744 13.5303 5.53033L9.53033 9.53033C9.23744 9.82322 8.76256 9.82322 8.46967 9.53033C8.17678 9.23744 8.17678 8.76256 8.46967 8.46967L11.1893 5.75L1 5.75C0.585787 5.75 0.25 5.41421 0.25 5C0.25 4.58579 0.585787 4.25 1 4.25L11.1893 4.25L8.46967 1.53033C8.17678 1.23744 8.17678 0.762563 8.46967 0.46967C8.76256 0.176776 9.23744 0.176776 9.53033 0.46967L13.5303 4.46967Z"
+                                fill="#0E0E0E" />
+                        </svg>
+
+                    </button>
+                </div>
+
+
+
+
+            </div>
+
+
+        </section>
+        <section>
+            <div class="container pt-lg-5 pt-4">
+                <div class="row pt-4 align-items-center mb-5">
+                    <div
+                        class="pt-5 pt-lg-0 col-lg-6 d-flex align-items-lg-center justify-content-lg-center flex-column order-md-2 order-2">
+                        <h3 class="fs-48 mb-5 fw-bold">
+                            Empowering <br class="d-block d-lg-none"> entrepreneurs to <br class="d-block d-lg-none">
+                            achieve their full <br class="d-block d-lg-none"> potential.
+                        </h3>
+                        <ul class="align-self-start p-0 mb-lg-5 ">
+                            <li class="mb-lg-3 mb-4">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.61069 15.6913C5.57786 15.3025 3.77296 14.124 2.47482 12.5397C1.08881 10.8481 0.280511 8.69396 0.389311 6.54448C0.600013 2.38179 4.18604 -0.495177 8.38931 0.308668C10.6532 0.741629 12.0618 3.71742 13.3756 5.56959C14.5011 7.1562 15.7099 7.49558 15.6107 9.45546C15.3957 13.7033 11.814 16.4951 7.61069 15.6913Z"
+                                        fill="#9A8FFA" />
+                                </svg> Interdum pulvinar ornare viverra lectus vestibulum proin in.
+                            </li>
+                            <li class="mb-lg-3 mb-4">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.61069 15.6913C5.57786 15.3025 3.77296 14.124 2.47482 12.5397C1.08881 10.8481 0.280511 8.69396 0.389311 6.54448C0.600013 2.38179 4.18604 -0.495177 8.38931 0.308668C10.6532 0.741629 12.0618 3.71742 13.3756 5.56959C14.5011 7.1562 15.7099 7.49558 15.6107 9.45546C15.3957 13.7033 11.814 16.4951 7.61069 15.6913Z"
+                                        fill="#9A8FFA" />
+                                </svg> Lorem ipsum dolor sit amet consectetur
+                            </li>
+                            <li class="mb-lg-3 mb-4">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.61069 15.6913C5.57786 15.3025 3.77296 14.124 2.47482 12.5397C1.08881 10.8481 0.280511 8.69396 0.389311 6.54448C0.600013 2.38179 4.18604 -0.495177 8.38931 0.308668C10.6532 0.741629 12.0618 3.71742 13.3756 5.56959C14.5011 7.1562 15.7099 7.49558 15.6107 9.45546C15.3957 13.7033 11.814 16.4951 7.61069 15.6913Z"
+                                        fill="#9A8FFA" />
+                                </svg> Purus sapien sagittis sed volutpat.
+                            </li>
+                            <li class="mb-lg-3 mb-4">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.61069 15.6913C5.57786 15.3025 3.77296 14.124 2.47482 12.5397C1.08881 10.8481 0.280511 8.69396 0.389311 6.54448C0.600013 2.38179 4.18604 -0.495177 8.38931 0.308668C10.6532 0.741629 12.0618 3.71742 13.3756 5.56959C14.5011 7.1562 15.7099 7.49558 15.6107 9.45546C15.3957 13.7033 11.814 16.4951 7.61069 15.6913Z"
+                                        fill="#9A8FFA" />
+                                </svg> Interdum pulvinar ornare viverra lectus vestibulum proin in. Purus sapien
+                            </li>
+                        </ul>
+                        <button class="btn1 align-self-start px-5 fw-bold">
+                            About Us
+                        </button>
+                    </div>
+                    <div class="col-lg-5 col-11 mx-auto order-md-1 order-1">
+                        <img src="media/home2.png" class="w100m">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-8">
+                    <h3 class="fs-48 fw-bold">
+                        Start building with our products
+                    </h3>
+                    <p class="fs-16 pe-lg-5">
+                        Lorem ipsum dolor sit amet consectetur. Feugiat imperdiet rhoncus suscipit aliquam neque tellus
+                        ipsum quis scelerisque. Enim mi id nec semper non nulla sapien rhoncus. Cursus risus.
+                    </p>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block text-end">
+                    <button class="btn1 me-2 px-5">View all products
+                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14.0303 4.46967C14.3232 4.76256 14.3232 5.23744 14.0303 5.53033L10.0303 9.53033C9.73744 9.82322 9.26256 9.82322 8.96967 9.53033C8.67678 9.23744 8.67678 8.76256 8.96967 8.46967L11.6893 5.75L1.5 5.75C1.08579 5.75 0.75 5.41421 0.75 5C0.75 4.58579 1.08579 4.25 1.5 4.25L11.6893 4.25L8.96967 1.53033C8.67678 1.23744 8.67678 0.762563 8.96967 0.46967C9.26256 0.176776 9.73744 0.176776 10.0303 0.46967L14.0303 4.46967Z"
+                                fill="#0E0E0E" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <section class="bbs">
+            <div class="container">
+                <div class="d-flex  gap-lg-5 gap-3 pe-5 pb-4 bbin">
+                    <div
+                        class="bb bb1  active d-flex gap-3 justify-content-center align-items-center  flex-row px-lg-4 py-lg-2 px-4">
+                        <img src="media/Component 1.svg" alt="">
+                        <h5 class="fsb-18 ab1"> E-Books</h5>
+                    </div>
+                    <div
+                        class="bb bb1  d-flex gap-3 justify-content-center align-items-center  flex-row px-lg-4 py-lg-2 px-4">
+                        <img src="media/Component 2.svg" alt="">
+                        <h5 class="fsb-18 ab"> Audio Books</h5>
+                    </div>
+                    <div
+                        class="bb bb1  d-flex gap-3 justify-content-center align-items-center  flex-row px-lg-4 py-lg-2 px-4">
+                        <img src="media/Component 3.svg" alt="">
+                        <h5 class="fsb-18"> Articles</h5>
+                    </div>
+                    <div
+                        class="bb bb1   d-flex gap-3 justify-content-center align-items-center  flex-row px-lg-4 py-lg-2 px-4">
+                        <img src="media/Component 4.svg" alt="">
+                        <h5 class="fsb-18">Videos</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider_section">
+
+
+
+
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="col-md-12 cc">
+                        <div class="card p-4 bg-white w100m d-flex gap-2 flex-wrap flex-lg-nowrap flex-row-reverse justify-content-center"
+                            style="border: 1px solid #C6C0FC; border-radius: 20px; width: 577px; height: 280px;">
+                            <div class="flex-grow-1 order-1 order-lg-0">
+                                <p class="fs-12 mb-0">E-Book</p>
+                                <h5 class="card-title fs-18 fw-bold fsm16">Product Title: ornare viverra lectus
+                                    vestibulum proin in</h5>
+                                <p class="card-text fs-14">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis
+                                </p>
+                                <h6 class="fs-20 fsm16 fw-bold">
+                                    £48.99
+                                </h6>
+                                <div class="d-flex justify-content-start">
+                                    <button class="btn1 me-2">Add to Cart
+                                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M14.0303 4.46967C14.3232 4.76256 14.3232 5.23744 14.0303 5.53033L10.0303 9.53033C9.73744 9.82322 9.26256 9.82322 8.96967 9.53033C8.67678 9.23744 8.67678 8.76256 8.96967 8.46967L11.6893 5.75L1.5 5.75C1.08579 5.75 0.75 5.41421 0.75 5C0.75 4.58579 1.08579 4.25 1.5 4.25L11.6893 4.25L8.96967 1.53033C8.67678 1.23744 8.67678 0.762563 8.96967 0.46967C9.26256 0.176776 9.73744 0.176776 10.0303 0.46967L14.0303 4.46967Z"
+                                                fill="#0E0E0E" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <img src="media/home5.png" class="w100m img-fluid align-self-center" alt="Image 1"
+                                style="width: 208px; height: 208px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="col-md-12 cc">
+                        <div class="card p-4 bg-white w100m d-flex gap-2 flex-wrap flex-lg-nowrap flex-row-reverse justify-content-center"
+                            style="border: 1px solid #C6C0FC; border-radius: 20px; width: 577px; height: 280px;">
+                            <div class="flex-grow-1 order-1 order-lg-0">
+                                <p class="fs-12 mb-0">E-Book</p>
+                                <h5 class="card-title fs-18 fw-bold fsm16">Product Title: ornare viverra lectus
+                                    vestibulum proin in</h5>
+                                <p class="card-text fs-14">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis
+                                </p>
+                                <h6 class="fs-20 fsm16 fw-bold">
+                                    £48.99
+                                </h6>
+                                <div class="d-flex justify-content-start">
+                                    <button class="btn1 me-2">Add to Cart
+                                        <svg width="15" height="10" viewBox="0 0 15 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M14.0303 4.46967C14.3232 4.76256 14.3232 5.23744 14.0303 5.53033L10.0303 9.53033C9.73744 9.82322 9.26256 9.82322 8.96967 9.53033C8.67678 9.23744 8.67678 8.76256 8.96967 8.46967L11.6893 5.75L1.5 5.75C1.08579 5.75 0.75 5.41421 0.75 5C0.75 4.58579 1.08579 4.25 1.5 4.25L11.6893 4.25L8.96967 1.53033C8.67678 1.23744 8.67678 0.762563 8.96967 0.46967C9.26256 0.176776 9.73744 0.176776 10.0303 0.46967L14.0303 4.46967Z"
+                                                fill="#0E0E0E" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <img src="media/home5.png" class="w100m img-fluid align-self-center" alt="Image 1"
+                                style="width: 208px; height: 208px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </section>
+        <div class="container">
+            <section>
+                <div class="container mb-5 pt-lg-5">
+                    <div class="row mt-lg-5 mt-4 ">
+                        <div class="col-lg-7">
+                            <h3 class="fs-48 fw-bold">
+                                How it works
+                            </h3>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-3 gap-4 justify-content-between gap-lg-0 col-lg-12 px-0">
+                        <div class="col-lg-4 col-sm-12 py-lg-5 ">
+                            <div class="card p-5 bg-white  d-flex gap-2 flex-column-reverse justify-content-center"
+                                style="border: 1px solid #C6C0FC;
+										  border-radius: 20px;">
+                                <div class="flex-grow-1">
+                                    <h5 class="mt-3 mb-2 fs-24 fw-bold">Browse Our Products</h5>
+                                    <p class="fs-16 px-0">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis
+                                        sed volutpat.
+                                    </p>
+                                </div>
+                                <img src="media/ic7.png" class="img-fluid align-self-start" alt="Image 1">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 py-lg-5 ">
+                            <div class="card p-5 bg-white  d-flex gap-2 flex-column-reverse justify-content-center"
+                                style="border: 1px solid #C7E696;
+										  border-radius: 20px;">
+                                <div class="flex-grow-1">
+                                    <h5 class="mt-3 mb-2 fs-24 fw-bold">Checkout Securely</h5>
+                                    <p class="fs-16">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis sed
+                                        volutpat.
+                                    </p>
+                                </div>
+                                <img src="media/ic8.png" class="img-fluid align-self-start" alt="Image 2">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 py-lg-5 pe-0">
+                            <div class="card p-5 bg-white  d-flex gap-2 flex-column-reverse justify-content-center"
+                                style="border: 1px solid #FFC9D2;
+										  border-radius: 20px;">
+                                <div class="flex-grow-1">
+                                    <h5 class="mt-3 mb-2 fs-24 fw-bold">Learn and grow</h5>
+                                    <p class="fs-16">Lorem ipsum dolor sit amet consectetur. Purus sapien sagittis sed
+                                        volutpat.
+                                    </p>
+                                </div>
+                                <img src="media/ic9.png" class="img-fluid align-self-start" alt="Image 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container mb-5 mt-5 pb-lg-4">
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <div class="card bgno ind overflow-hidden bg-white d-flex gap-0 gap-lg-0 flex-lg-nowrap flex-wrap flex-lg-row-reverse  justify-content-center"
+                                style="border-radius: 32px;">
+                                <div class="flex-grow-1 bgno pb-5 pb-lg-0 ps-lg-5 ps-5 d-flex flex-column order-1 order-lg-0 justify-content-center text-lg-start"
+                                    style="background-image: url('media/home4.png'); background-size: cover; background-position: center;">
+                                    <h3 class="mt-3 mb-3 fs-48 fsm24 fw-bold">Ready. Set. Go.</h3>
+                                    <p class="fs-16 ps-0">It’s time to make your dream come true</p>
+                                    <button class="btn2 align-self-start">
+                                        Let’s Get Started
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L14.5303 16.5303C14.2374 16.8232 13.7626 16.8232 13.4697 16.5303C13.1768 16.2374 13.1768 15.7626 13.4697 15.4697L16.1893 12.75L6 12.75C5.58579 12.75 5.25 12.4142 5.25 12C5.25 11.5858 5.58579 11.25 6 11.25L16.1893 11.25L13.4697 8.53033C13.1768 8.23744 13.1768 7.76256 13.4697 7.46967C13.7626 7.17678 14.2374 7.17678 14.5303 7.46967L18.5303 11.4697Z"
+                                                fill="#0E0E0E" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <img src="media/home3.png" class="img-fluid align-self-start d-inline-flex"
+                                    alt="Image 1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 footer pt-lg-5 pt-5">
+            <div class="container w-max1440">
+                <div class="row justify-content-between">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <img src="media/Logo.png" class="logo">
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 my-4 d-block d-lg-none">
+                        <img src="media/mastercard.png" class="logo">
+                    </div>
+
+
+                    <div class="col-lg-8 col-md-7 col-md-12 order-1 order-lg-0">
+                        <div class="col-lg-12 mt-4 col-md-4 col-sm-12 p-0 d-block d-lg-none"
+                            style="border-top: 1px solid #C6C0FC;">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 py-lg-3">
+                            <ul class="nav p-0">
+                                <li class="nav-item"><a href="product_list.html"
+                                        class="nav-link fs-16 text-decoration-none text-dark">Store</a></li>
+                                <li class="nav-item"><a href="about us.html"
+                                        class="nav-link fs-16 text-decoration-none text-dark">About
+                                        Us</a></li>
+                                <li class="nav-item"><a href="FAQ.html"
+                                        class="nav-link fs-16 text-decoration-none text-dark">FAQs</a></li>
+                                <li class="nav-item"><a href="contact us.html"
+                                        class="nav-link fs-16 text-decoration-none text-dark">Contact Us</a></li>
+                                <li class="nav-item"><a href="login.html"
+                                        class="nav-link fs-16 text-decoration-none text-dark">Login/Register</a></li>
+                                <li class="nav-item"><a href="terms.html"
+                                        class="nav-link fs-16 text-decoration-none text-dark">T&C's</a></li>
+                                <li class="nav-item"><a href="terms.html"
+                                        class="nav-link fs-16 text-decoration-none text-dark">Privacy & Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 d-none d-lg-block">
+                            <img src="media/mastercard.png" class="logo">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-md-12 d-flex justify-content-lg-end justify-content-center gap-4">
+                        <div>
+                            <div class="col"><span class="fs-16 d-flex d-lg-inline-block "><img src="media/call.png"
+                                        class="icons"><a href="#" class="text-decoration-none text-dark"> &nbsp +44
+                                        1122 123456</a></span>
+                            </div>
+                            <div class="col py-4"><span class="fs-16 d-flex d-lg-inline-block "><img
+                                        src="media/group.png" class="icons"><a href="#"
+                                        class="text-decoration-none text-dark">&nbsp &nbsp
+                                        info@knowurbusiness.com</a></span></div>
+                            <div class="col"><span class="fs-16 d-flex d-lg-inline-block "><img src="media/icon.png"
+                                        class="icons"><a href="#" class="text-decoration-none text-dark">&nbsp &nbsp 123
+                                        London Street, LDN, AB1
+                                        2CD</a></span></div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-12 mt-lg-4 col-md-4 col-sm-12 p-0 text-lg-start text-center"
+                    style="border-top: 1px solid #C6C0FC; margin-top: 50px !important;">
+                    <div class="p-0 copyright fs-16 fsm-12 py-4">© 2023 Know Ur Business. All Rights Reserved</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js'
+        integrity='sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw=='
+        crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js'
+        integrity='sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=='
+        crossorigin='anonymous'></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 200,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    margin: -20,
+                    stagePadding: 20,
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3,
+                    nav: true
+                },
+                1200: {
+                    items: 3,
+                    margin: 600,
+                    nav: true
+                },
+                1300: {
+                    items: 3,
+                    margin: 500,
+                    nav: true
+                },
+                1500: {
+                    items: 3,
+                    margin: 400,
+                    nav: true
+                },
+                1900: {
+                    items: 3,
+                    margin: 200,
+                    nav: true
+                },
+            }
+        })
+    </script>
+
+    <!-- cart js -->
+    <script>
+        $(document).ready(function () {
+
+            $('.cartOpen').click(function () {
+                $('.cart_b').show()
+            })
+            $('.cartclose').click(function () {
+                $('.cart_b').hide()
+            })
+        })
+    </script>
+</body>
+
+
+</html>
